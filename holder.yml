@@ -33,7 +33,6 @@ paths:
             application/json:
               schema:
                 oneOf:
-                  - $ref: "./components/Credential.yml#/components/schemas/Credential"
                   - $ref: "./components/VerifiableCredential.yml#/components/schemas/VerifiableCredential"
         "400":
           description: Bad Request
